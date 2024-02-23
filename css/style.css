@@ -142,6 +142,31 @@ footer {
 .icon .item a img:hover {
     transform: scale(1.5);
 }
+
+/* Start Task Overflow hidden scroll thumb */
+.scrollbar-hidden::-webkit-scrollbar {
+    width: 1rem;
+    background-color: transparent;    
+}   
+.scrollbar-hidden::-webkit-scrollbar-thumb {
+    background-color: transparent;    
+}
+.scrollbar-hidden::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.custom-overflow::-webkit-scrollbar,
+.custom-overflow::-webkit-scrollbar-thumb {
+    width: 0.5rem !important;
+    border-radius: 22rem !important;
+    background-clip: padding-box !important;
+}
+
+.custom-overflow::-webkit-scrollbar-thumb { 
+    background-color: gold !important;       
+}
+/* End Task Overflow hidden scroll thumb */
+
 @media (max-width: 1535px) {
     header {
         padding: 15px 3%;
