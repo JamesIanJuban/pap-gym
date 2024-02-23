@@ -1,0 +1,167 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 10%;
+    background: transparent;
+}
+body {
+    background: rgb(255, 255, 255);
+}
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: gold;
+    float: none;
+}
+.nav {
+ display: flex;
+}
+.nav a {
+    color: gold;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all 0.55s ease;
+}
+.nav a:hover {
+    border-bottom: 3px solid white;
+}
+.input {
+    padding: 10px;
+    color: gold;
+}
+.hello {
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    position: relative;
+    display: grid;
+}
+.hello
+{
+   height: 100%;
+   width: 100%;
+   min-height: 100vh;
+   background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+   position: relative;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+   gap: 3rem;
+}
+.section {
+    padding: 0 19%;
+    align-items: center;
+
+}
+.pew h5  {
+    font-size: 45px;
+    font-weight: 1000;
+    color: whitesmoke;
+    margin-left: 65px;
+    margin-bottom: 15px;
+}
+.pew h1 {
+    font-family: "Roboto Slab", cursive;
+    font-optical-sizing: auto;
+    font-weight: 8000;
+    font-style: normal;
+    font-size: 60px;
+    color: gold;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 5px rgb(185, 182, 164);
+                  
+}
+.pew h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-left: 65px;
+    margin-bottom: 3px;
+}
+.pew p { 
+    color: white;
+    font-size: 15px;
+    line-height: 2;
+    margin-left: 65px;
+    margin-bottom: 30px;
+}
+.hello-img img {
+    width: 700px;
+    height: auto;
+}
+.hello a {
+    display: inline-block;
+    color: gold;
+    background: #020202;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    margin-left: 65px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 2;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+.hello a:hover {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    transition: 0.2s;
+    transform: scale(1.0);
+}
+footer {    
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    padding: 2px;
+    color:  rgb(241, 230, 8);
+    text-align: center;
+    columns: row;
+}
+.icon .item a img {
+    max-width: 500%; /* Set maximum width to 100% */
+    height: 60px; /* Maintain aspect ratio */
+    position: relative;
+    transition: 0.5s;
+}
+.icon .item a img:hover {
+    transform: scale(1.5);
+}
+@media (max-width: 1535px) {
+    header {
+        padding: 15px 3%;
+        transition: .2s;
+    }
+    }
+@media (max-width: 1460px) {
+    .section {
+        padding: 0 12px;
+        transition: .2s;
+        width: 90%;
+    }
+    @media (max-width: 1250px) {
+        .hello-img img {
+            width: 100%;
+            height: auto;
+        }
+        .pew h1 {
+            font-size: 75px;
+            margin: 0 0 3;
+        }
+
+}
