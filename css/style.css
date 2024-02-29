@@ -46,7 +46,11 @@ body {
     color: gold;
     padding: 5px 10px; /* Add padding */
 }
-
+/* Additional Styling */
+.container {
+    width: 100%;
+    padding: 0 20px; /* Adjust padding as needed */
+}
 .hello {
     height: 100%;
     width: 100%;
@@ -86,7 +90,7 @@ body {
     color: gold;
     margin-left: 65px;
     margin-bottom: 10px;
-    text-shadow: 0px 0px 5px rgb(185, 182, 164);
+    text-shadow: 0px 0px 5px rgb(192, 189, 175);
                   
 }
 .pew h4 {
@@ -105,8 +109,9 @@ body {
     margin-bottom: 25px;
 }
 .hello-img img {
-    width: 500px;
+    width: 100%;
     height: auto;
+    border-radius: 10px; /* Adjust border radius as needed */
 }
 .hello a {
     display: inline-block;
@@ -119,14 +124,14 @@ body {
     line-height: 2;
 }
 .hello a:hover {
-    color: gold;
-    background: transparent;
+    background: gray;
+    padding: 300;
     border: 1px solid gold;
     transition: 0.2s;
     transform: scale(1.0);
 }
 footer {    
-    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    background: gray;
     padding: 2px;
     color:  rgb(241, 230, 8);
     text-align: center;
